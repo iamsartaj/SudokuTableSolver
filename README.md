@@ -1,2 +1,1 @@
-# SudokuTableSolver
-It is a web application to find the solution of any sudoku table. The user will fill all the given numbers of sudoku table and will get the solution by clicking on "Solve" button.
+It is a web application to find the solution of any sudoku table. The user will fill all the given numbers of sudoku table and will get the solution by clicking on "Solve" button. if it is not a valid sudoku, then a warning message "Sudoku is invalid" will appear. By clicking on "Reset" button user can find the solution of another sudoku table. This application is created by using HTML5, CSS3 and JavaScript. Data structure techniques recursion and backtracking are being implemented in this project.
