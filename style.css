@@ -1,0 +1,66 @@
+body{
+    background-color:rgb(144, 158, 158);
+    font-style: normal;
+    font-family: 'Trebuchet MS';
+}
+
+ #grid {
+    text-align: center;
+  }
+  
+ .name {
+      font-size: 35px;
+  }
+
+  h4{
+    color: rgb(144, 158, 158);
+  }
+  
+  table {
+    border-collapse: collapse;
+    font-size: 2em;
+    margin: auto;
+  }
+  
+  colgroup,
+  tbody {
+    border: solid medium;
+  }
+  
+  td {
+    border: solid thin;
+    height: 1.35em;
+    width: 1.35em;
+    text-align: center;
+    background-color: white;
+  }
+  
+  .buttons{
+      display: flex;
+      text-align: center;
+      justify-content: center;
+  }
+  
+  button {
+    margin-top: 30px;
+    font-size: 1.4em;
+    background-color:rgb(172, 68, 27);
+    color: whitesmoke;
+    margin-left: 30px;
+    border: black;
+    border-radius: 35px;
+    padding: 10px 20px;
+  }
+  
+  button:hover{
+      color: rgb(238, 116, 68);
+      background-color: black;
+      outline: rgb(238, 116, 68);
+      transition: all 0.5s ease;
+      cursor: pointer;
+  }
+
+  #invalid-sudoku{
+    color: rgb(172, 68, 27);
+  }
+  
